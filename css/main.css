@@ -1,3 +1,78 @@
+body{
+  font-family: 'Lato';
+}
+
+.contenedor-principal{
+   width:100%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center ;
+   align-items: center ;
+}
+
+#login{
+  background-color: lightblue;
+}
+
+.middle p{
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.middle{
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+  height: 440px;
+}
+
+.info-centro img{
+  width: auto;
+  height: 200px;
+}
+
+header{
+    display: flex;
+    height:50px;
+    text-align: center;
+    justify-content: space-between;
+    flex: 1 100%;
+}
+
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+
+i{
+  font-size: 40px;
+  color: #00ADEE;
+}
+
+header h1{
+  margin-top: 7px;
+}
+
+#logotipo{
+  width: 100px;
+}
+
+header img{
+  height: 100%;
+  width: auto;
+}
+
 /* Estilo de botones */
 .button, .button span {
    display: inline-block;
@@ -96,3 +171,133 @@
 .button.blanco span{
   color: #00ADEE;
 }
+
+A{
+   color: #0000cc;
+   text-decoration: none;
+}
+
+
+
+
+/* .flex-container{
+    width:90%;
+    max-width:960px;
+    min-width:320px;
+    margin:20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    align-items: center ;
+    align-content: stretch;
+
+}
+
+.item{
+    color:#fff;
+    text-align:center;
+    margin:0 auto;
+    font-size:25px;
+}
+
+header{
+    height:100px;
+    background-color:black;
+    overflow:hidden;
+    text-align:center;
+
+    flex: 1 100%;
+}
+header h1{
+    line-height:100px;
+    margin:0;
+    font-size:35px;
+    float:left;
+    width:40%;
+    padding-left:20px;
+    box-sizing:border-box;
+}
+header nav{
+    float:left;
+    width:60%;
+    line-height:100px;
+    padding-right:20px;
+    box-sizing:border-box;
+}
+header ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+header ul li{
+    margin:0 5px;
+    font-size:20px;
+    cursor:pointer;
+    color:#D5C5C5;
+}
+header ul li:hover{
+    color:#fff;
+}
+#cuerpo{
+    background-color:tomato;
+    height:500px;
+    line-height:500px;
+
+    flex: 4 auto;
+}
+aside{
+    background-color:lightblue;
+    height:500px;
+    line-height:500px;
+
+    flex: 1 auto;
+
+}
+footer{
+    height:100px;
+    line-height:100px;
+    background-color:lightslategrey;
+
+    flex: 1 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    header nav{
+        line-height:31px;
+    }
+    header ul{
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    header ul li{
+        margin-bottom:2px;
+    }
+
+
+    header{
+        order:0;
+    }
+
+    #cuerpo{
+        flex: 1 100%;
+        order:2;
+    }
+
+    aside{
+        flex: 1 100%;
+        order:1;
+    }
+
+    footer{
+        order:3;
+    }
+
+}
+
+Rerun */
