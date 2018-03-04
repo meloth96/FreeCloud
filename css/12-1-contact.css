@@ -1,0 +1,48 @@
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info{
+  margin-top: 15px;
+  padding: 1%;
+  max-height: 200px;
+  min-width: 98%;
+  background: #ededed;
+}
+
+.formulario{
+  padding: 50px;
+}
+
+.dos-colum{
+  display: flex;
+}
+
+.dos-colum > * {
+  width: 300px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+#cuerp-mens{
+  width: 600px;
+}
+
+button {
+ display: flex;
+ border: none;
+ background: #3F9DD6;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ box-sizing: border-box;
+ margin-left: 33%;
+ transition: all 500ms ease;
+ margin-bottom: 15px;
+}
+
+button:hover {
+  background: #2883ba;
+}
