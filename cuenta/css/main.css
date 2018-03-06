@@ -65,16 +65,8 @@ main{
     color: white;
 }
 
-/* #opciones-menu li span{
-  margin-top: 13px;
-  margin-bottom: 130px;
-  padding-left: 10px;
-  color: black;
-} */
-
 #foto-usuario{
   height: 100px;
   width:100px;
   margin-top: 50px;
-  /* margin-bottom: 0px; */
 }
