@@ -2,7 +2,8 @@
 .cont-print{
   display: flex;
   flex-direction: column;
-  width: 1250px;
+  /* width: 1250px; */
+  width: 100%;
   margin: 0 auto;
 }
 
