@@ -1,8 +1,78 @@
 main{
   display: flex;
+  width: 100%;
+  /* justify-content:center; */
+  /* align-items: center; */
 }
 
 .contenido-principal{
-  border: 5px solid black;
-  width: 70%;
+  /* border: 5px solid black; */
+  width: 80%;
+}
+
+.menu-lateral-izquierdo{
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: column wrap;
+  /* justify-content: center; */
+  align-items: stretch;
+  width: 25%;
+  /* border: 5px solid black; */
+}
+
+.primer-contenido{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.menu-lateral-izquierdo h4{
+  margin-top: 0px;
+}
+
+.menu-lateral-izquierdo a{
+  text-decoration: none;
+}
+
+#opciones-menu{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#opciones-menu li a{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+#opciones-menu li{
+  display: flex;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 46px;
+  align-items: center;
+}
+
+#opciones-menu a:hover{
+    background: #3F9DD6;
+    color: white;
+}
+
+#opciones-menu li span{
+  margin-top: 13px;
+  margin-bottom: 130px;
+  padding-left: 10px;
+  color: black;
+}
+
+#foto-usuario{
+  height: 100px;
+  width:100px;
+  margin-top: 50px;
+  /* margin-bottom: 0px; */
 }
