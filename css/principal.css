@@ -1,0 +1,163 @@
+/*-------------------Layout---------------------*/
+.cont-print{
+  display: flex;
+  flex-direction: column;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'lato';
+}
+
+main {
+      min-height: calc(100vh - 26.6vh);
+}
+
+
+/*-------------------Menu---------------------*/
+header {
+     background: #3F9DD6;
+     border-bottom: 1px solid rgba(0,0,0,.1);
+     box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+ header > nav > ul {
+   display: flex;
+   flex-wrap: row wrap;
+   justify-content: flex-start;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.item a span{
+  margin-top: 0px;
+}
+
+.item a{
+  height: 30px;
+}
+
+ header > nav > ul > li:hover {
+     background: #7ebde3;
+}
+
+ header > nav > ul > li a + div {
+     background: linear-gradient(to bottom,rgba(58,162,173,1) 0,rgba(62,188,207,0.96) 100%);
+     border-radius: 0 0 2px 2px;
+     box-shadow: 0 3px 1px rgba(0,0,0,.05);
+     display: none;
+     font-size: 1rem;
+     position: absolute;
+     width: 228px;
+}
+
+ header > nav > ul > li:hover a + div {
+     display: flex;
+     flex-wrap: row wrap;
+     justify-content: flex-start;
+}
+
+ header > nav > ul > li a + div > ul {
+     list-style-type: none;
+     background: #3F9DD6;
+}
+
+ header > nav > ul > li a + div > ul > li > a {
+     color: white;
+     display: flex;
+     justify-content: flex-start;
+     font-size: .75rem;
+     letter-spacing: 1.5px;
+     padding: .25rem 1.5rem;
+     text-decoration: none;
+     background: #3F9DD6;
+     text-transform: uppercase;
+}
+
+.item div ul li a{
+  align-items: center;
+  width: 180px;
+}
+
+.item div ul{
+  padding-left: 0px;
+}
+
+ header > nav > ul > li a + div > ul > li:hover > a {
+     background-color: #2883ba;
+}
+
+ header > nav > ul > li > a {
+     align-items: center;
+     color: white;
+     display: flex;
+     font-size: 1.2rem;
+     font-weight: 200;
+     letter-spacing: 1px;
+     max-width: 230px;
+     padding: 1rem 1.5rem;
+     text-decoration: none;
+     text-shadow: 0 1px 1px #000000;
+     transition: all linear 0.1s;
+}
+
+/*---------------------- Footer ------------------*/
+
+#logo-footer img{
+  width: 170px;
+}
+
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+footer span{
+  font-size: 12.5px;
+}
+
+footer aside{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: left;
+  width: 300px;
+}
+
+.left-sidebar figure{
+  margin-left: 0px;
+}
+
+.left-sidebar h2{
+  color: #363839;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.left-sidebar p{
+  color: #3F4244;
+  font-size: 12.5px;
+}
+
+.bottom-menu.FreeCloud,
+.bottom-menu.soporte,
+.bottom-menu.herramientas,
+.bottom-menu.legal{
+  padding-left: 15px;
+  flex-basis: 200px;
+  color: #3F9DD6;
+}
+.bottom-menu.link{
+  color: #3F4244;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 3px 0;
+  width: 150px;
+  display: block;
+  text-decoration: none;
+  transition: width 2s ease-out;
+}
